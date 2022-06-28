@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    color: white;
+}
+
+div {
+    padding: 20px;
+    margin: auto;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    font-size: 100px;
+}
+
+button {
+    padding: 10px 25px 10px 25px;
+    border: none;
+    margin: 0 30px;
+    font-size: 25px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
